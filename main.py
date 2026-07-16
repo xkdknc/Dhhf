@@ -28,8 +28,8 @@ import os
 load_dotenv()
 
 # ==================== CONFIG ====================
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_IDS = [int(id.strip()) for id in os.getenv("ADMIN_IDS", "").split(",") if id.strip()]
+BOT_TOKEN = os.getenv("8810741889:AAEjL5vlgL0mxZeAmRGWtDuU7kKFCKwJQ2M")
+ADMIN_IDS = [int(id.strip()) for id in os.getenv("8680457924", "").split(",") if id.strip()]
 DB_PATH = os.getenv("DB_PATH", "group_guard.db")
 LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", 0)) if os.getenv("LOG_CHANNEL") else None
 
